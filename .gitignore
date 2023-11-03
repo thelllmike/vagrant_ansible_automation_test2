@@ -1,0 +1,35 @@
+# Ignore the .vagrant directory containing the local environment details
+.vagrant/
+
+# Ignore specific override files
+.vagrantuser
+
+# If you're using VirtualBox, ignore VirtualBox specific files
+*.vbox
+*.vbox-prev
+
+# Ignore any .env files as they usually contain environment-specific settings
+.env
+.env.*
+
+# Ignore the Mac OS X .DS_Store files
+.DS_Store
+
+# Ignore Vagrant package files
+*.box
+
+# If you're using Ruby for provisioning, ignore the typical Ruby artifacts
+*.rvmrc
+*.rbenv
+.bundle/
+vendor/bundle
+
+# If you're using Chef for provisioning
+cookbooks/
+roles/
+
+# If using a Vagrant plugin for dotenv support, you might want to ignore .env files
+.env
+
+# Ignore the packaging artifacts
+package.box
